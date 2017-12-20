@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-09-05T08:00:00Z" product-name="odb">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_odb_domain_model_odb">
+				<source>ODB</source>
+			</trans-unit>
+			<trans-unit id="tx_odb_domain_model_odb.code">
+				<source>Code</source>
+			</trans-unit>
+			<trans-unit id="tx_odb_domain_model_odb.note">
+				<source>Note</source>
+			</trans-unit>
+			<trans-unit id="tx_odb_domain_model_odb.description">
+				<source>Description</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

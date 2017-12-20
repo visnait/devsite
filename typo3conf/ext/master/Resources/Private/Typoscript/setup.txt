@@ -1,0 +1,56 @@
+plugin.tx_master.view {
+    label = Master template
+    extensionKey = master
+    templateRootPath = EXT:master/Resources/Private/Templates/
+    partialRootPath = EXT:master/Resources/Private/Partials/
+    layoutRootPath = EXT:master/Resources/Private/Layouts/
+}
+
+config.contentObjectExceptionHandler = 0
+
+page.includeCSS  {
+
+    bootstrap = EXT:master/Resources/Public/Stylesheets/Bootstrap/bootstrap.css
+    master = EXT:master/Resources/Public/Stylesheets/master.less
+
+}
+page.includeJS {
+    jquery = EXT:master/Resources/Public/Javascripts/jquery-3.2.1.min.js
+    bootstrap = EXT:master/Resources/Public/Javascripts/bootstrap.min.js
+    master = EXT:master/Resources/Public/Javascripts/init.js
+}
+
+#plugin.tx_master.fce.yourname {
+#    templateRootPath = fileadmin/Templates # if you don't want to use an extension (1)
+#    # partial and layout root paths not defined (2)
+#}
+
+
+
+#Include ts
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:master/Resources/Private/Typoscript/System/root_pagets.ts">
+
+tt_content.textpic =< lib.contentElement
+tt_content.textpic {
+    templateName = Textpic
+    dataProcessing {
+        10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+        10 {
+            references.fieldName = image
+        }
+        20 = TYPO3\CMS\Frontend\DataProcessing\GalleryProcessor
+        20 {
+            maxGalleryWidth = {$styles.content.textmedia.maxW}
+            maxGalleryWidthInText = {$styles.content.textmedia.maxWInText}
+            columnSpacing = {$styles.content.textmedia.columnSpacing}
+            borderWidth = {$styles.content.textmedia.borderWidth}
+            borderPadding = {$styles.content.textmedia.borderPadding}
+        }
+    }
+    stdWrap {
+        editIcons = tt_content: header [header_layout], bodytext, image [imageorient|imagewidth|imageheight], [imagecols|imageborder], image_zoom
+        editIcons {
+            iconTitle.data = LLL:EXT:fluid_styled_content/Resources/Private/Language/FrontendEditing.xlf:editIcon.textpic
+        }
+    }
+}

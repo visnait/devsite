@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2017-09-04T08:00:00Z" product-name="odb">
+    <header/>
+    <body>
+
+      <trans-unit id="odb_title">
+        <source>ODB</source>
+      </trans-unit>
+      <trans-unit id="odb_plus_wiz_description">
+        <source>Car OBD Codes</source>
+      </trans-unit>
+
+      <trans-unit id="terms_title">
+        <source>Terms</source>
+      </trans-unit>
+      <trans-unit id="terms_plus_wiz_description">
+        <source>Pallas nagy lexikona</source>
+      </trans-unit>
+
+
+    </body>
+  </file>
+</xliff>

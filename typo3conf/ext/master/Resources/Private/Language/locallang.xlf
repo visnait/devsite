@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" product-name="master">
+		<header/>
+
+		<body>
+			<trans-unit id="flux.accordion" xml:space="preserve">
+				<source>Accordion</source>
+			</trans-unit>
+		<trans-unit id="showmore" xml:space="preserve">
+				<source>Show more</source>
+		</trans-unit>
+		<trans-unit id="showless" xml:space="preserve">
+				<source>Show less</source>
+		</trans-unit>
+
+		<trans-unit id="flux.staticblog" xml:space="preserve">
+				<source>Static Blog</source>
+		</trans-unit>
+
+		<trans-unit id="flux.flyout.content" xml:space="preserve">
+				<source>Flyout nav</source>
+		</trans-unit>
+        <trans-unit id="flux.header.content" xml:space="preserve">
+                <source>Header content</source>
+        </trans-unit>
+
+        <trans-unit id="flux.main.content" xml:space="preserve">
+                <source>Main content</source>
+        </trans-unit>
+        <trans-unit id="flux.footer.content" xml:space="preserve">
+                <source>Footer Content</source>
+        </trans-unit>
+
+
+
+		</body>
+	</file>
+</xliff>

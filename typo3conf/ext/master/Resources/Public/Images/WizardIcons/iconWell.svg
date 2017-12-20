@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="32" height="32" style="">
+    <title>my vector image</title>
+    <rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="#FFFFFF" stroke="none"/>
+    <g class="currentLayer" style="">
+        <title>Layer 1</title>
+        <rect fill="#1311ea" stroke="#222222" style="color: rgb(0, 0, 0);" stroke-width="1" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" id="svg_1" x="0" y="0" width="32" height="32" class="selected"/>
+    </g>
+</svg>

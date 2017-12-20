@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:master/Resources/Private/Typoscript/System/ce_wizard.ts">

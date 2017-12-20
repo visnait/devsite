@@ -1,0 +1,167 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+     xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+     xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers">
+
+    <f:layout name="Content"/>
+
+    <f:section name="Configuration">
+        <flux:form id="gridcontainer" options="{group: 'Grid', Fluidcontent: {sorting: 10}, icon: '{f:uri.resource(path: \'Icons/bootstrap/glyphicons_155_show_big_thumbnails.png\')}'}" label="Column Creator" description="Create 2-6 Columns with advanced Column Settings">
+            <flux:form.sheet name="ColMasterSheet" label="Column Configuration">
+                <flux:field.select name="ColCount" items="{
+                    0:{0:'please select',1:'2'},
+                    1:{0:'2 Columns',1:'2'},
+                    2:{0:'3 Columns',1:'3'},
+                    3:{0:'4 Columns',1:'4'},
+                    4:{0:'6 Columns',1:'6'}
+                }" label="Number of Columns " requestUpdate="true" maxItems="1" size="1"/>
+                <flux:form.container name="spacing" label="Margin of Content Element" >
+                    <flux:field.select name="MarginTop" items="{
+                            0:{0:'0px',1:'mg0'},
+				            1:{0:'10px',1:'mg10'},
+				            2:{0:'15px',1:'mg15'},
+				            3:{0:'20px',1:'mg20'},
+				            4:{0:'25px',1:'mg25'},
+				            5:{0:'30px',1:'mg30'},
+				            6:{0:'40px',1:'mg40'},
+				            7:{0:'50px',1:'mg50'}
+				        }" default="0" label="Margin Top" />
+                    <flux:field.select name="MarginBottom" items="{
+                            0:{0:'0px',1:'mg0'},
+				            1:{0:'10px',1:'mg10'},
+				            2:{0:'15px',1:'mg15'},
+				            3:{0:'20px',1:'mg20'},
+				            4:{0:'25px',1:'mg25'},
+				            5:{0:'30px',1:'mg30'},
+				            6:{0:'40px',1:'mg40'},
+				            7:{0:'50px',1:'mg50'}
+				        }" default="0" label="Margin Bottom" />
+                </flux:form.container>
+                <f:if condition="{ColCount} > '0'">
+                    <f:then>
+                        <flux:form.container name="CssClasses" label="Css Classes">
+                            <v:iterator.for from="1" to="{ColCount}" iteration="i" step="1">
+                                <flux:field.input name="addCssClassCol{i.index}" label="Additional CSS Class Column {i.index}"/>
+                            </v:iterator.for>
+                        </flux:form.container>
+                    </f:then>
+                </f:if>
+            </flux:form.sheet>
+            <f:if condition="{ColCount} > '0'">
+                <f:then>
+                    <v:iterator.for from="1" to="{ColCount}" iteration="i" step="1">
+                        <flux:form.sheet name="Column{i.index}Sheet" label="Col {i.index} Settings">
+                            <flux:form.container name="Column{i.index}" label="Column: {i.index}">
+                                <flux:field.select name="Colxs{i.index}" items="{
+                                     0:{0:'Column width XS: 1',1:'col-xs-1'},
+                                     1:{0:'Column width XS: 2',1:'col-xs-2'},
+                                     2:{0:'Column width XS: 3',1:'col-xs-3'},
+                                     3:{0:'Column width XS: 4',1:'col-xs-4'},
+                                     4:{0:'Column width XS: 5',1:'col-xs-5'},
+                                     5:{0:'Column width XS: 6',1:'col-xs-6'},
+                                     6:{0:'Column width XS: 7',1:'col-xs-7'},
+                                     7:{0:'Column width XS: 8',1:'col-xs-8'},
+                                     8:{0:'Column width XS: 9',1:'col-xs-9'},
+                                     9:{0:'Column width XS: 10',1:'col-xs-10'},
+                                    10:{0:'Column width XS: 11',1:'col-xs-11'},
+                                    11:{0:'Column width XS: 12',1:'col-xs-12'}
+                                }" label="Extra small devices | Phones (<768px)" maxItems="1"/>
+                                <flux:field.checkbox name="ColxsHide{i.index}" default="0"
+                                                     label="Hide on: Extra small devices"/>
+                                <flux:field.select name="Colsm{i.index}" items="{
+                                     0:{0:'Column width SM: 1',1:'col-sm-1'},
+                                     1:{0:'Column width SM: 2',1:'col-sm-2'},
+                                     2:{0:'Column width SM: 3',1:'col-sm-3'},
+                                     3:{0:'Column width SM: 4',1:'col-sm-4'},
+                                     4:{0:'Column width SM: 5',1:'col-sm-5'},
+                                     5:{0:'Column width SM: 6',1:'col-sm-6'},
+                                     6:{0:'Column width SM: 7',1:'col-sm-7'},
+                                     7:{0:'Column width SM: 8',1:'col-sm-8'},
+                                     8:{0:'Column width SM: 9',1:'col-sm-9'},
+                                     9:{0:'Column width SM: 10',1:'col-sm-10'},
+                                    10:{0:'Column width SM: 11',1:'col-sm-11'},
+                                    11:{0:'Column width SM: 12',1:'col-sm-12'}
+                                }" label="Small devices | Tablets (≥768px)" maxItems="1"/>
+                                <flux:field.checkbox name="ColsmHide{i.index}" default="0"
+                                                     label="Hide on: Small devices"/>
+                                <flux:field.select name="Colmd{i.index}" items="{
+                                     0:{0:'Column width MD: 1',1:'col-md-1'},
+                                     1:{0:'Column width MD: 2',1:'col-md-2'},
+                                     2:{0:'Column width MD: 3',1:'col-md-3'},
+                                     3:{0:'Column width MD: 4',1:'col-md-4'},
+                                     4:{0:'Column width MD: 5',1:'col-md-5'},
+                                     5:{0:'Column width MD: 6',1:'col-md-6'},
+                                     6:{0:'Column width MD: 7',1:'col-md-7'},
+                                     7:{0:'Column width MD: 8',1:'col-md-8'},
+                                     8:{0:'Column width MD: 9',1:'col-md-9'},
+                                     9:{0:'Column width MD: 10',1:'col-md-10'},
+                                    10:{0:'Column width MD: 11',1:'col-md-11'},
+                                    11:{0:'Column width MD: 12',1:'col-md-12'}
+                                }" label="Medium devices | Desktops (≥992px)" maxItems="1"/>
+                                <flux:field.checkbox name="ColmdHide{i.index}" default="0"
+                                                     label="Hide on: Medium devices"/>
+                                <flux:field.select name="Collg{i.index}" items="{
+                                     0:{0:'Column width LG: 1',1:'col-lg-1'},
+                                     1:{0:'Column width LG: 2',1:'col-lg-2'},
+                                     2:{0:'Column width LG: 3',1:'col-lg-3'},
+                                     3:{0:'Column width LG: 4',1:'col-lg-4'},
+                                     4:{0:'Column width LG: 5',1:'col-lg-5'},
+                                     5:{0:'Column width LG: 6',1:'col-lg-6'},
+                                     6:{0:'Column width LG: 7',1:'col-lg-7'},
+                                     7:{0:'Column width LG: 8',1:'col-lg-8'},
+                                     8:{0:'Column width LG: 9',1:'col-lg-9'},
+                                     9:{0:'Column width LG: 10',1:'col-lg-10'},
+                                    10:{0:'Column width LG: 11',1:'col-lg-11'},
+                                    11:{0:'Column width LG: 12',1:'col-lg-12'}
+                                }" label="Large devices | Desktops (≥1200px)" maxItems="1"/>
+                                <flux:field.checkbox name="CollgHide{i.index}" default="0"
+                                                     label="Hide on: Large devices"/>
+                            </flux:form.container>
+                        </flux:form.sheet>
+                    </v:iterator.for>
+                </f:then>
+            </f:if>
+            <flux:grid>
+                <flux:grid.row>
+                    <f:if condition="{ColCount} > '0'">
+                        <f:then>
+                            <v:iterator.for from="1" to="{ColCount}" iteration="i" step="1">
+                                <flux:grid.column
+                                        style="width:{v:math.division(a: 100, b: ColCount) -> v:math.round(decimals: 12)}%;"
+                                        name="column{i.index}"
+                                        label="Column {i.index}"/>
+                            </v:iterator.for>
+                        </f:then>
+                    </f:if>
+                </flux:grid.row>
+            </flux:grid>
+        </flux:form>
+    </f:section>
+
+    <f:section name="Preview">
+
+    </f:section>
+
+    <f:section name="Main">
+        <div class="row">
+            <v:iterator.for from="1" to="{ColCount}" iteration="i" step="1">
+                {v:variable.get(name: 'Column{i.index}.ColxsHide{i.index}') -> v:variable.set(name: 'HideXs')}
+                {v:variable.get(name: 'Column{i.index}.ColsmHide{i.index}') -> v:variable.set(name: 'HideSm')}
+                {v:variable.get(name: 'Column{i.index}.ColmdHide{i.index}') -> v:variable.set(name: 'HideMd')}
+                {v:variable.get(name: 'Column{i.index}.CollgHide{i.index}') -> v:variable.set(name: 'HideLg')}
+                <div class="{v:variable.get(name: 'Column{i.index}.Colxs{i.index}')}
+                            {v:variable.get(name: 'Column{i.index}.Colsm{i.index}')}
+                            {v:variable.get(name: 'Column{i.index}.Colmd{i.index}')}
+                            {v:variable.get(name: 'Column{i.index}.Collg{i.index}')}
+                            {f:if(condition: HideXs, then: 'hidden-xs')}
+                            {f:if(condition: HideSm, then: 'hidden-sm')}
+                            {f:if(condition: HideMd, then: 'hidden-md')}
+                            {f:if(condition: HideLg, then: 'hidden-lg')}
+                            ">
+                    <flux:content.render area="column{i.index}"/>
+                </div>
+            </v:iterator.for>
+        </div>
+    </f:section>
+
+</div>

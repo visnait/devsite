@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Devsite Drake" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="Devsite Drake">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/typo3" />
+            <excludedPath path="/typo3temp" />
+            <excludedPath path="/uploads" />
+            <excludedPath local="true" path="$PROJECT_DIR$/typo3" />
+            <excludedPath local="true" path="$PROJECT_DIR$/typo3temp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/uploads" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="Drake - Alfa Timeline">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

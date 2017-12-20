@@ -1,0 +1,27 @@
+<f:layout name="Page" />
+
+<header class="main-header fixed-top">
+    <f:render section="TopNavigation" partial="PageObjects" arguments="{_all}" />
+    <f:comment>
+    <f:render section="HeaderPart" partial="PageObjects" arguments="{_all}" />
+    </f:comment>
+    Header
+</header>
+<main class="main-container" style="min-height: 400px;">
+
+    <f:render section="HeaderContent" partial="PageObjects" arguments="{_all}"/>
+
+    <!--TYPO3SEARCH_begin-->
+    <f:render section="Content" />
+    <!--TYPO3SEARCH_end-->
+
+</main>
+<footer>
+
+</footer>
+
+
+
+
+
+

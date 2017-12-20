@@ -1,0 +1,29 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+     xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+     xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+
+    <f:layout name="Content"/>
+
+    <f:section name="Configuration">
+        <flux:form id="well" label="Drake - Well">
+            <flux:grid>
+                <flux:grid.row>
+                    <flux:grid.column name="content"/>
+                </flux:grid.row>
+            </flux:grid>
+
+        </flux:form>
+    </f:section>
+
+    <f:section name="Preview">
+        Well
+    </f:section>
+
+    <f:section name="Main">
+        <div class="container">
+            <flux:content.render area="content" />
+        </div>
+    </f:section>
+
+</div>

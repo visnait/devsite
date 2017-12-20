@@ -1,0 +1,20 @@
+##############################################################################
+# Extension configuration
+
+plugin.tx_odb {
+    view {
+        templateRootPath = {$plugin.tx_odb.view.templateRootPath}
+        partialRootPath = {$plugin.tx_odb.view.partialRootPath}
+        layoutRootPath = {$plugin.tx_odb.view.layoutRootPath}
+    }
+    persistence {
+        storagePid = {$plugin.tx_odb.persistence.storagePid}
+    }
+    features {
+        # uncomment the following line to enable the new Property Mapper.
+        # rewrittenPropertyMapper = 1
+    }
+    settings {
+        limit = {$plugin.tx_odb.settings.limit}
+    }
+}

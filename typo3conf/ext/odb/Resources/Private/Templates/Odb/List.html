@@ -1,0 +1,15 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+
+<f:layout name="Default"/>
+
+<f:section name="main">
+
+    <h1>Codes</h1>
+    <f:for each="{codes}" as="code">
+        <h3><f:format.html>{code.code}</f:format.html></h3>
+        <p><f:format.html>{code.description}</f:format.html></p>
+        <br>
+    </f:for>
+
+
+</f:section>
