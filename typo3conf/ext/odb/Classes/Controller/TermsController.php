@@ -76,11 +76,15 @@ class TermsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      * @return void
      */
     public function listAction() {
-        $terms = $this->termsRepository->findAll();
 
-        //mail('visnait@gmail.com','debug',print_f($terms,1));
+        //$terms = $this->termsRepository->findAll();
+        $terms = $this->termsRepository->findSome(0,10);
+
 
         $this->view->assign('terms', $terms);
     }
+
+
+   
 
 }

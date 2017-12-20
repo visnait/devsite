@@ -4,10 +4,10 @@
 
 <f:section name="main">
 
-    <f:form object="{codes}" objectName="codes">
+    <f:form method="post" controller="odb" action="list" name="code" object="{codes}" ">
 
         <div class="row">
-            <div class="col-2">Code</div>
+            <div class="col-2"><label for="code">Code</label></div>
             <div class="col-4"><f:form.textfield  property="code" /></div>
         </div>
         <div class="row">
@@ -25,13 +25,6 @@
         </div>
 
     </f:form>
-
-    <h1>Codes</h1>
-    <f:for each="{codes}" as="code">
-        <h3><f:format.html>{code.code}</f:format.html></h3>
-        <p><f:format.html>{code.description}</f:format.html></p>
-        <br>
-    </f:for>
 
 
 </f:section>

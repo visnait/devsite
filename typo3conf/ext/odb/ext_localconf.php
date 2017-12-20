@@ -7,11 +7,21 @@ if (!defined('TYPO3_MODE')) {
     'DRAKE.'.$_EXTKEY,
     'Odb',
     [
-        'Odb' => 'list',
+        'Odb' => 'list,add',
+    ],
+    [
+        'Odb' => 'list,add',
+    ]
+);
+
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+    'DRAKE.'.$_EXTKEY,
+    'Terms',
+    [
         'Terms' => 'list',
     ],
     [
-        'Odb' => 'list',
         'Terms' => 'list',
     ]
 );
+

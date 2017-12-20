@@ -78,12 +78,11 @@ class OdbController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
      */
     public function listAction() {
 
+       // $this->odbRepository->update();
 
         $codes = $this->odbRepository->findAll();
 
-        //echo "<pre>".print_r($codes,1)."</pre>";
-        #$mess = print_r($codes,1);
-        #mail('visnait@gmail.com','debug',$mess);
+
         $this->view->assign('codes', $codes);
     }
 

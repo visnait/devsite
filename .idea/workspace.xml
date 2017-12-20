@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b94dd05-cd1e-42cc-8c99-57c168fd1cc5" name="Default" comment="" />
+    <list default="true" id="9b94dd05-cd1e-42cc-8c99-57c168fd1cc5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/TermsController.php" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/TermsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Terms/List.html" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Terms/List.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php" />
+    </list>
     <ignored path="devsite.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -29,33 +38,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OdbController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OdbController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+            <state relative-caret-position="367">
+              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OdbRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/OdbRepository.php">
+      <file leaf-file-name="Add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TermsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/TermsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="88" />
               <folding>
-                <element signature="e#39#79#0#PHP" expanded="true" />
+                <element signature="n#div#0;n#f:section#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#f:section#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#f:section#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#f:section#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#3;n#f:section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Odb.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/FlexForms/Odb.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#meta#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#TCEforms#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#items#0;n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#numIndex#0;n#items#0;n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#suggest#0;n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+                <element signature="n#default#0;n#suggest#0;n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,24 +96,24 @@
       <file leaf-file-name="Odb.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TCA/Odb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
+            <state relative-caret-position="359">
               <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Terms.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TCA/Terms.php">
+      <file leaf-file-name="ext_localconf.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="153">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TermsRepository.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TermsRepository.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -91,39 +123,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Terms.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Terms.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="List.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Terms/List.html">
+        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
               <folding>
+                <element signature="n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#3;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
                 <element signature="n#f:for#0;n#f:section#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Odb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Odb.php">
+      <file leaf-file-name="ttt.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3conf/ext/ttt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            <state relative-caret-position="17">
+              <caret line="1" column="55" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -140,15 +171,17 @@
         <option value="$PROJECT_DIR$/typo3conf/ext/master/Resources/Private/Typoscript/constants.txt" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/ext_tables.sql" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TCA/Odb.php" />
-        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TypoScript/constants.txt" />
-        <option value="$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e088a98e-ca97-4934-b6a3-c7ea0e4dc98e/console_1.sql" />
-        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/TermsController.php" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Terms.php" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TCA/Terms.php" />
+        <option value="$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php" />
+        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html" />
+        <option value="$PROJECT_DIR$/typo3conf/ext/ttt.html" />
+        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html" />
+        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php" />
       </list>
     </option>
   </component>
@@ -165,7 +198,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -263,6 +296,378 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Configuration" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TypoScript" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Configuration" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TypoScript" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Page" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Configuration" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TCA" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Configuration" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexForms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domain" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domain" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typo3conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -279,6 +684,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -343,24 +749,25 @@
       <workItem from="1512661085656" duration="1444000" />
       <workItem from="1513176144145" duration="5473000" />
       <workItem from="1513700858033" duration="5529000" />
-      <workItem from="1513782250549" duration="111000" />
+      <workItem from="1513782250549" duration="7012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18893000" />
+    <option name="totallyTimeSpent" value="25794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22547974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23347548" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24637681" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -368,7 +775,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24637681" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24637681" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -376,6 +782,24 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -387,6 +811,9 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -405,20 +832,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/master/Resources/Private/Typoscript/setup.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typo3conf/ext/master/Resources/Private/Typoscript/constants.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -597,13 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Layouts/Default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -618,40 +1024,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/FlexForms/Odb.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TypoScript/constants.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typo3conf/deprecation_4518f7062d.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/ext_tables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,9 +1050,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="n#f:for#0;n#f:section#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,30 +1066,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-245">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Odb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TCA/Odb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#meta#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#TCEforms#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#items#0;n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#numIndex#0;n#items#0;n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#suggest#0;n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+            <element signature="n#default#0;n#suggest#0;n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,15 +1117,128 @@
         <state relative-caret-position="1122">
           <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
           <folding>
-            <element signature="e#39#79#0#PHP" expanded="true" />
+            <element signature="e#39#79#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/ext_tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Odb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TypoScript/constants.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TCA/Odb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/FlexForms/Odb.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#meta#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#TCEforms#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#items#0;n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#numIndex#0;n#items#0;n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#suggest#0;n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#default#0;n#suggest#0;n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="88" />
+          <folding>
+            <element signature="n#div#0;n#f:section#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#f:section#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#f:section#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#f:section#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#3;n#f:section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <element signature="n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#3;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
+            <element signature="n#f:for#0;n#f:section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/ttt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        <state relative-caret-position="367">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding />
         </state>
       </provider>
