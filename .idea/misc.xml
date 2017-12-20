@@ -10,4 +10,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectResources">
+    <resource url="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers" location="N:/fluid-7.6.0.xsd" />
+  </component>
 </project>

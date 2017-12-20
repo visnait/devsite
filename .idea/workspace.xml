@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b94dd05-cd1e-42cc-8c99-57c168fd1cc5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/TermsController.php" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/TermsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Odb.php" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Odb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Configuration/FlexForms/Odb.xml" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Configuration/FlexForms/Odb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Terms/List.html" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Terms/List.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php" afterPath="$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php" />
     </list>
     <ignored path="devsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,28 +37,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OdbController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Add.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="88" />
-              <folding>
-                <element signature="n#div#0;n#f:section#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#f:section#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#f:section#0;n#!!top" expanded="true" />
-                <element signature="n#div#3;n#f:section#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#3;n#f:section#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,21 +50,11 @@
       <file leaf-file-name="Odb.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/FlexForms/Odb.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
               <folding>
-                <element signature="n#T3DataStructure#0;n#!!top" expanded="true" />
                 <element signature="n#meta#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-                <element signature="n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-                <element signature="n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-                <element signature="n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
                 <element signature="n#TCEforms#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-                <element signature="n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-                <element signature="n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-                <element signature="n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-                <element signature="n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-                <element signature="n#items#0;n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-                <element signature="n#numIndex#0;n#items#0;n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
                 <element signature="n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
                 <element signature="n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
                 <element signature="n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
@@ -103,17 +76,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ext_localconf.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php">
+      <file leaf-file-name="Terms.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TCA/Terms.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="306">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TermsRepository.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TermsRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -126,8 +99,8 @@
       <file leaf-file-name="List.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="17">
+              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
               <folding>
                 <element signature="n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
@@ -141,12 +114,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ttt.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ext_localconf.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Odb.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Odb.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-143">
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ttt.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/typo3conf/ext/ttt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="55" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="55" />
+            <state relative-caret-position="0">
+              <caret line="0" column="75" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="75" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OdbController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
+              <folding>
+                <element signature="e#39#79#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,7 +171,6 @@
         <option value="$PROJECT_DIR$/typo3conf/ext/master/Resources/Private/Typoscript/System/ce_wizard.ts" />
         <option value="$PROJECT_DIR$/typo3conf/ext/master/Resources/Private/Templates/Content/GridContainer.html" />
         <option value="$PROJECT_DIR$/typo3conf/ext/drake_odb2/ext_emconf.php" />
-        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Odb.php" />
         <option value="$PROJECT_DIR$/typo3conf/ext/master/Resources/Private/Templates/Page/Home.html" />
         <option value="$PROJECT_DIR$/typo3conf/ext/master/Resources/Private/Typoscript/constants.txt" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/ext_tables.sql" />
@@ -178,10 +182,12 @@
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Terms.php" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TCA/Terms.php" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php" />
-        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html" />
         <option value="$PROJECT_DIR$/typo3conf/ext/ttt.html" />
-        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html" />
+        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html" />
         <option value="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php" />
+        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html" />
+        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Configuration/FlexForms/Odb.xml" />
+        <option value="$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Odb.php" />
       </list>
     </option>
   </component>
@@ -675,7 +681,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -749,12 +755,20 @@
       <workItem from="1512661085656" duration="1444000" />
       <workItem from="1513176144145" duration="5473000" />
       <workItem from="1513700858033" duration="5529000" />
-      <workItem from="1513782250549" duration="7012000" />
+      <workItem from="1513782250549" duration="11563000" />
     </task>
+    <task id="LOCAL-00001" summary="Repository fixes, template changes, add form - not finished">
+      <created>1513791183037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513791183037</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25794000" />
+    <option name="totallyTimeSpent" value="30345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -813,7 +827,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
+    <MESSAGE value="Repository fixes, template changes, add form - not finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repository fixes, template changes, add form - not finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1089,14 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TCA/Terms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/ext_tables.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1130,18 +1140,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Odb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TypoScript/constants.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/TCA/Terms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1154,59 +1180,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/ext_localconf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/FlexForms/Odb.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#meta#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#TCEforms#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#items#0;n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#numIndex#0;n#items#0;n#config#0;n#TCEforms#0;n#switchableControllerActions#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#suggest#0;n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-            <element signature="n#default#0;n#suggest#0;n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="88" />
-          <folding>
-            <element signature="n#div#0;n#f:section#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#f:section#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#f:section#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#f:section#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#3;n#f:section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/List.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="17">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
           <folding>
             <element signature="n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#f:form#0;n#f:section#0;n#!!top" expanded="true" />
@@ -1219,26 +1196,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/ttt.html">
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Resources/Private/Templates/Odb/Add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="55" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="55" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Configuration/FlexForms/Odb.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+          <folding>
+            <element signature="n#meta#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#TCEforms#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#suggest#0;n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+            <element signature="n#default#0;n#suggest#0;n#wizards#0;n#config#0;n#TCEforms#0;n#settings.detailPid#0;n#el#0;n#ROOT#0;n#main#0;n#sheets#0;n#T3DataStructure#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Controller/OdbController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+        <state relative-caret-position="945">
+          <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
+          <folding>
+            <element signature="e#39#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Model/Odb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typo3conf/ext/odb/Classes/Domain/Repository/TermsRepository.php">
+    <entry file="file://$PROJECT_DIR$/typo3conf/ext/ttt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="75" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="75" />
           <folding />
         </state>
       </provider>

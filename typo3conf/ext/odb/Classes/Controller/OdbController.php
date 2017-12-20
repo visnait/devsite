@@ -78,12 +78,21 @@ class OdbController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
      */
     public function listAction() {
 
-       // $this->odbRepository->update();
-
         $codes = $this->odbRepository->findAll();
-
-
         $this->view->assign('codes', $codes);
+    }
+
+
+    /**
+     * action add
+     *
+     * @param \DRAKE\Odb\Domain\Repository\OdbRepository $codes
+     * @return void
+     */
+    public function addAction(\DRAKE\Odb\Domain\Repository\OdbRepository $codes)
+    {
+        $this->odbRepository->add($codes);
+        $this->redirect('list');
     }
 
 }

@@ -31,7 +31,6 @@
                     </switchableControllerActions>
                     <settings.detailPid>
                         <TCEforms>
-                            <displayCond>FIELD:switchableControllerActions:IN:Odb->list,</displayCond>
                             <label>Detail pid</label>
                             <config>
                                 <type>group</type>

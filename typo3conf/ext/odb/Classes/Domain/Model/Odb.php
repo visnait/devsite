@@ -32,12 +32,18 @@ namespace DRAKE\Odb\Domain\Model;
 class Odb extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 
     /**
+     *
+     */
+    public function __construct() {
+    }
+
+    /**
      * code
      *
      * @var string
      * @validate NotEmpty
      */
-    protected $code = '';
+    protected  $code = '';
 
     /**
      * description
