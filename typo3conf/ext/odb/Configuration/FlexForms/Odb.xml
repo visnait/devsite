@@ -20,7 +20,7 @@
                                 <items>
                                     <numIndex index="1">
                                         <numIndex index="0">List</numIndex>
-                                        <numIndex index="1">Odb->list</numIndex>
+                                        <numIndex index="1">Odb->list;Odb->add</numIndex>
                                     </numIndex>
                                 </items>
                                 <maxitems>1</maxitems>

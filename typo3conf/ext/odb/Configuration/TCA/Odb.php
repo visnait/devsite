@@ -100,7 +100,7 @@ $GLOBALS['TCA'][$_table] = [
             'label' => 'Description',
             'config' => [
                 'type' => 'text',
-                'enableRichtext' => true,
+                'enableRichtext' => false,
                 'eval' => 'trim,required',
             ],
         ],

@@ -10,8 +10,8 @@ config.contentObjectExceptionHandler = 0
 
 page.includeCSS  {
 
-    bootstrap = EXT:master/Resources/Public/Stylesheets/Bootstrap/bootstrap.css
-    master = EXT:master/Resources/Public/Stylesheets/master.less
+    bootstrapcss = EXT:master/Resources/Public/Stylesheets/Bootstrap/bootstrap.css
+    mastercss = EXT:master/Resources/Public/Stylesheets/master.css
 
 }
 page.includeJS {

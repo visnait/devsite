@@ -30,45 +30,34 @@ class OdbController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
     protected $odbRepository = NULL;
 
     /**
+     * Persistence Manager
+     *
+     * @var \TYPO3\CMS\Extbase\Persistence\Generic\PersistenceManager
+     * @inject
+     */
+    protected $persistenceManager;
+
+    /**
      * initializeAction
      *
      * @return void
      */
     public function initializeAction() {
-        #ini_set("memory_limit",-1);
-        if (GeneralUtility::_GP('ceuid')) {
-            $res = $GLOBALS['TYPO3_DB']->exec_SELECTquery('*', 'tt_content', 'uid = '.intval(GeneralUtility::_GP('ceuid')));
-            if ($res) {
-                $row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res);
-                $GLOBALS['TYPO3_DB']->sql_free_result($res);
-                if ($row['uid']) {
-                    $cObj = $this->configurationManager->getContentObject();
-                    $cObj->start($row);
-                    $this->configurationManager->setContentObject($cObj);
-                    $flexFormService = $this->objectManager->get('TYPO3\\CMS\\Extbase\\Service\\FlexFormService');
-                    $flexFormConfiguration = $flexFormService->convertFlexFormContentToArray($row['pi_flexform']);
-                    if($flexFormConfiguration['settings']) {
-                        ArrayUtility::mergeRecursiveWithOverrule($this->settings, $flexFormConfiguration['settings']);
-                    }
-                }
-            }
-        }
+        
         $this->cObj = $this->configurationManager->getContentObject();
         $this->piVars = $this->request->getArguments();
         $this->piVars['page'] = intval($this->piVars['page']);
 
         $querySettings = $this->objectManager->get('TYPO3\\CMS\\Extbase\\Persistence\\Generic\\QuerySettingsInterface');
-        $querySettings->setRespectSysLanguage(FALSE);
-        $querySettings->setRespectStoragePage(TRUE);
-        if (!$this->cObj || !$this->cObj->data || !$this->cObj->data['pages']) {
-            $querySettings->setRespectStoragePage(FALSE);
-        }
-        $this->odbRepository->setDefaultQuerySettings($querySettings);
+        $querySettings->setRespectSysLanguage(TRUE);
+        $querySettings->setRespectStoragePage(FALSE);
 
+        $this->odbRepository->setDefaultQuerySettings($querySettings);
         $orderings = [
-            'code' => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_ASCENDING
+            'uid' => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_DESCENDING
         ];
         $this->odbRepository->setDefaultOrderings($orderings);
+
     }
 
     /**
@@ -78,20 +67,26 @@ class OdbController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
      */
     public function listAction() {
 
-        $codes = $this->odbRepository->findAll();
+        $newOdb = $this->objectManager->get(\DRAKE\Odb\Domain\Model\Odb::class);
+        $this->view->assign('newOdb', $newOdb);
+        $this->persistenceManager->persistAll();
+
+        //$codes = $this->odbRepository->findAll();
+        $codes = $this->odbRepository->findSome(0,10);
         $this->view->assign('codes', $codes);
+
     }
 
 
     /**
-     * action add
-     *
-     * @param \DRAKE\Odb\Domain\Repository\OdbRepository $codes
-     * @return void
-     */
-    public function addAction(\DRAKE\Odb\Domain\Repository\OdbRepository $codes)
+    * action add
+    *
+    * @param \DRAKE\Odb\Domain\Model\Odb $newOdb
+    * @return void
+    */
+    public function addAction(\DRAKE\Odb\Domain\Model\Odb $newOdb)
     {
-        $this->odbRepository->add($codes);
+        $this->odbRepository->add($newOdb);
         $this->redirect('list');
     }
 

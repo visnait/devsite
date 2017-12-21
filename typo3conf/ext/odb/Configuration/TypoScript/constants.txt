@@ -9,9 +9,13 @@ plugin.tx_odb{
     }
     persistence {
         # cat=plugin.tx_odb//a; type=string; label=Default storage PID
-        #storagePid := getIDfromAlias(odb_records)
+        storagePid =
     }
     settings {
         limit = 5
     }
 }
+
+
+plugin.tx_odb_odb.persistence.storagePid = 7
+plugin.tx_odb_terms.persistence.storagePid = 8

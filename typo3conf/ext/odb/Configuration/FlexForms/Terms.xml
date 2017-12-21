@@ -20,7 +20,7 @@
                                 <items>
                                     <numIndex index="1">
                                         <numIndex index="0">List</numIndex>
-                                        <numIndex index="1">Terms->list</numIndex>
+                                        <numIndex index="1">Terms->list;Terms->add</numIndex>
                                     </numIndex>
                                 </items>
                                 <maxitems>1</maxitems>
@@ -31,7 +31,6 @@
                     </switchableControllerActions>
                     <settings.detailPid>
                         <TCEforms>
-                            <displayCond>FIELD:switchableControllerActions:IN:Terms->list,</displayCond>
                             <label>Detail pid</label>
                             <config>
                                 <type>group</type>

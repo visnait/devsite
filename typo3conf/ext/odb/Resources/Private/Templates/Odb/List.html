@@ -4,35 +4,46 @@
 
 <f:section name="main">
 
+    <section class="odb container">
+        <div class="content-wrapper">
 
-    <f:form action="add" object="{codes}" name="codes" arguments="{codes:codes}">
+            <f:form action="add" object="{newOdb}" name="newOdb" method="POST" additionalAttributes="{role:'form'}">
 
-        <div class="row">
-            <div class="col-2">Code</div>
-            <div class="col-4"><f:form.textfield  property="code" /></div>
-        </div>
-        <div class="row">
-            <div class="col-2">Description</div>
-            <div class="col-4">  <f:form.textarea property="description" rows="5" cols="50" /></div>
-        </div>
-        <div class="row">
-            <div class="col-2">Note</div>
-            <div class="col-4"> <f:form.textfield  property="note" /></div>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <f:form.submit value="Send" />
-            </div>
-        </div>
+                <div class="form-group row">
+                    <div class="col-1 col-form-label">Code</div>
+                    <div class="col-5"><f:form.textfield  property="code" class="form-control" /></div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-1 col-form-label">Description</div>
+                    <div class="col-5"><f:form.textarea property="description" rows="5" cols="50"  class="form-control"/></div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-1 col-form-label">Note</div>
+                    <div class="col-5"> <f:form.textfield  property="note"  class="form-control"/></div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-6">
+                        <f:form.submit  class="form-control btn btn-primary"  value="Send" />
+                    </div>
+                </div>
 
-    </f:form>
+            </f:form>
 
-    <h1>Codes</h1>
-    <f:for each="{codes}" as="code">
-        <h3><f:format.html>{code.code}</f:format.html></h3>
-        <p><f:format.html>{code.description}</f:format.html></p>
-        <br>
-    </f:for>
+            <f:for each="{codes}" as="code">
+                <div class="odb_wrapper">
+                    <h3 class="odb_list_code">
+                        <f:format.raw>{code.code}</f:format.raw>
+                    </h3>
+                    <p class="odb_list_description">
+                        <f:format.raw>{code.description}</f:format.raw>
+                    </p>
+                </div>
+
+            </f:for>
+
+
+        </div>
+    </section>
 
 
 </f:section>

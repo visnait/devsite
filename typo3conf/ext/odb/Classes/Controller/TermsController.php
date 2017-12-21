@@ -30,42 +30,32 @@ class TermsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     protected $termsRepository = NULL;
 
     /**
+     * Persistence Manager
+     *
+     * @var \TYPO3\CMS\Extbase\Persistence\Generic\PersistenceManager
+     * @inject
+     */
+    protected $persistenceManager;
+
+    /**
      * initializeAction
      *
      * @return void
      */
     public function initializeAction() {
-        if (GeneralUtility::_GP('ceuid')) {
-            $res = $GLOBALS['TYPO3_DB']->exec_SELECTquery('*', 'tt_content', 'uid = '.intval(GeneralUtility::_GP('ceuid')));
-            if ($res) {
-                $row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res);
-                $GLOBALS['TYPO3_DB']->sql_free_result($res);
-                if ($row['uid']) {
-                    $cObj = $this->configurationManager->getContentObject();
-                    $cObj->start($row);
-                    $this->configurationManager->setContentObject($cObj);
-                    $flexFormService = $this->objectManager->get('TYPO3\\CMS\\Extbase\\Service\\FlexFormService');
-                    $flexFormConfiguration = $flexFormService->convertFlexFormContentToArray($row['pi_flexform']);
-                    if($flexFormConfiguration['settings']) {
-                        ArrayUtility::mergeRecursiveWithOverrule($this->settings, $flexFormConfiguration['settings']);
-                    }
-                }
-            }
-        }
+
         $this->cObj = $this->configurationManager->getContentObject();
         $this->piVars = $this->request->getArguments();
         $this->piVars['page'] = intval($this->piVars['page']);
 
         $querySettings = $this->objectManager->get('TYPO3\\CMS\\Extbase\\Persistence\\Generic\\QuerySettingsInterface');
-        $querySettings->setRespectSysLanguage(FALSE);
-        $querySettings->setRespectStoragePage(TRUE);
-        if (!$this->cObj || !$this->cObj->data || !$this->cObj->data['pages']) {
-            $querySettings->setRespectStoragePage(FALSE);
-        }
+        $querySettings->setRespectSysLanguage(TRUE);
+        $querySettings->setRespectStoragePage(FALSE);
+
         $this->termsRepository->setDefaultQuerySettings($querySettings);
 
         $orderings = [
-            'term' => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_ASCENDING
+            'uid' => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_DESCENDING
         ];
         $this->termsRepository->setDefaultOrderings($orderings);
     }
@@ -77,14 +67,26 @@ class TermsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      */
     public function listAction() {
 
+        $newTerms = $this->objectManager->get(\DRAKE\Odb\Domain\Model\Terms::class);
+        $this->view->assign('newTerms', $newTerms);
+        $this->persistenceManager->persistAll();
         //$terms = $this->termsRepository->findAll();
-        $terms = $this->termsRepository->findSome(0,10);
 
-
+        $terms = $this->termsRepository->findSome(0,2);
         $this->view->assign('terms', $terms);
+        $this->view->assign('total', $this->termsRepository->countAll());
     }
 
-
-   
+    /**
+     * action add
+     *
+     * @param \DRAKE\Odb\Domain\Model\Terms $newTerms
+     * @return void
+     */
+    public function addAction(\DRAKE\Odb\Domain\Model\Terms $newTerms)
+    {
+        $this->termsRepository->add($newTerms);
+        $this->redirect('list');
+    }
 
 }

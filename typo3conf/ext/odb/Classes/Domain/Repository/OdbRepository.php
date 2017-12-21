@@ -31,4 +31,12 @@ namespace DRAKE\Odb\Domain\Repository;
  */
 class OdbRepository extends \TYPO3\CMS\Extbase\Persistence\Repository {
 
+    public function findSome($offset, $limit) {
+        $query = $this->createQuery();
+        return $query
+            ->setOffset($offset)
+            ->setLimit($limit)
+            ->execute();
+    }
+
 }
