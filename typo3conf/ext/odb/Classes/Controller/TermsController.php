@@ -7,7 +7,8 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 /**
  * Terms controller
  */
-class TermsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
+class TermsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
+{
 
     /**
      * piVars
@@ -42,7 +43,8 @@ class TermsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      *
      * @return void
      */
-    public function initializeAction() {
+    public function initializeAction()
+    {
 
         $this->cObj = $this->configurationManager->getContentObject();
         $this->piVars = $this->request->getArguments();
@@ -65,14 +67,15 @@ class TermsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      *
      * @return void
      */
-    public function listAction() {
+    public function listAction()
+    {
 
         $newTerms = $this->objectManager->get(\DRAKE\Odb\Domain\Model\Terms::class);
         $this->view->assign('newTerms', $newTerms);
         $this->persistenceManager->persistAll();
         //$terms = $this->termsRepository->findAll();
 
-        $terms = $this->termsRepository->findSome(0,2);
+        $terms = $this->termsRepository->findSome(0, 20);
         $this->view->assign('terms', $terms);
         $this->view->assign('total', $this->termsRepository->countAll());
     }
@@ -87,6 +90,45 @@ class TermsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     {
         $this->termsRepository->add($newTerms);
         $this->redirect('list');
+    }
+
+
+    /**
+     * Import Action
+     *
+     * @return void
+     */
+    public function importAction()
+    {
+
+        $input = (string)$_POST['tx_odb_terms']['description'];
+        $outp = [];
+
+        if ($input) {
+            $out = explode('<H1>', $input);
+
+            foreach ($out as $item) {
+                $bc = explode('</H1>', $item);
+
+                $newTerms = $this->objectManager->get(\DRAKE\Odb\Domain\Model\Terms::class);
+                $newTerms->setTerm(trim($bc[0]));
+                $cleartext = preg_replace("/<\/?P>/i","" , $bc[1]);
+                $newTerms->setDescription(trim($cleartext));
+                $this->termsRepository->add($newTerms);
+
+                //echo "<h3>".$bc[0]."</h3>";
+                //echo "<p>".$bc[1]."</p>";
+                $outp[]=$bc;
+            }
+
+           //var_dump($cleartext);
+            //die;
+            $this->persistenceManager->persistAll();
+
+            $this->redirect('list');
+        }
+
+        $this->view->assign('total', $this->termsRepository->countAll());
     }
 
 }

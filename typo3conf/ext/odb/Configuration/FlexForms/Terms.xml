@@ -20,7 +20,11 @@
                                 <items>
                                     <numIndex index="1">
                                         <numIndex index="0">List</numIndex>
-                                        <numIndex index="1">Terms->list;Terms->add</numIndex>
+                                        <numIndex index="1">Terms->list;Terms->add;Terms->import;</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2">
+                                        <numIndex index="0">Import</numIndex>
+                                        <numIndex index="1">Terms->import;Terms->list;Terms->add;</numIndex>
                                     </numIndex>
                                 </items>
                                 <maxitems>1</maxitems>

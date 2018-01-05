@@ -18,10 +18,10 @@ if (!defined('TYPO3_MODE')) {
     'DRAKE.'.$_EXTKEY,
     'Terms',
     [
-        'Terms' => 'list,add',
+        'Terms' => 'list,add,import',
     ],
     [
-        'Terms' => 'list,add',
+        'Terms' => 'list,add,import',
     ]
 );
 

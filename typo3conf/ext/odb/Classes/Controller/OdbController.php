@@ -74,6 +74,7 @@ class OdbController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
         //$codes = $this->odbRepository->findAll();
         $codes = $this->odbRepository->findSome(0,10);
         $this->view->assign('codes', $codes);
+        $this->view->assign('total', $this->odbRepository->countAll());
 
     }
 
